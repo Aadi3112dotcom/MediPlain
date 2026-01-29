@@ -1,0 +1,247 @@
+.qr-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  text-align: center;
+}
+
+.card-header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e8eef7;
+  flex-direction: column;
+}
+
+.card-header-center .card-icon {
+  font-size: 2rem;
+}
+
+.card-header-center h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.qr-description {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.qr-container {
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f5f7ff 0%, #faf9ff 100%);
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #667eea;
+  transition: all 0.3s ease;
+}
+
+.qr-container:hover {
+  border-color: #764ba2;
+  background: linear-gradient(135deg, #faf9ff 0%, #f5f0ff 100%);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: white;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.qr-code:hover {
+  transform: scale(1.05);
+}
+
+.security-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: #e3f2fd;
+  border-radius: 10px;
+  border-left: 4px solid #2196f3;
+  margin: 1.5rem 0;
+}
+
+.security-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.security-info p {
+  margin: 0;
+  color: #0d47a1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.security-info strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.qr-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.qr-action-btn {
+  padding: 0.65rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.download-btn:hover {
+  background: #388e3c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.print-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.print-btn:hover {
+  background: #1976d2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+.qr-btn {
+  grid-column: 1 / -1;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #f44336 0%, #e91e63 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.qr-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(244, 67, 54, 0.3);
+}
+
+.qr-btn:active {
+  transform: translateY(0);
+}
+
+.center {
+  text-align: center;
+}
+
+.share-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.share-modal p {
+  color: #555;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.share-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.share-option-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.share-option-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+}
+
+.share-icon {
+  font-size: 1.5rem;
+}
+
+.emergency-contacts {
+  padding: 1rem;
+  background: #fff3e0;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+}
+
+.emergency-contacts h4 {
+  margin: 0 0 0.75rem 0;
+  color: #e65100;
+}
+
+.emergency-contacts p {
+  margin: 0 0 0.75rem 0;
+  color: #e65100;
+  font-size: 0.95rem;
+}
+
+.emergency-contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emergency-contacts li {
+  padding: 0.5rem 0;
+  color: #e65100;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .qr-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .qr-btn {
+    grid-column: auto;
+  }
+
+  .share-options {
+    grid-template-columns: 1fr;
+  }
+}
